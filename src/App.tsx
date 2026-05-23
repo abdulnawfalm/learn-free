@@ -1,12 +1,13 @@
 import React from "react";
 
 import "./index.css";
-import CourseDashboard from "./components/CourseDashboard";
+import LearnFreeDashboard from "./components/LearnFreeDashboard";
+
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen w-full">
-      <CourseDashboard />
+      <LearnFreeDashboard />
     </div>
   );
 };
